@@ -1,0 +1,21 @@
+set exrc
+set secure
+
+set hls is
+
+inoremap jk <ESC>
+colorscheme torte
+
+set t_Co=256
+set encoding=utf-8
+syntax on
+set laststatus=2
+set showcmd
+
+let mapleader = "'"
+
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_winsize = 20
+let g:netrw_altv = 1
+
