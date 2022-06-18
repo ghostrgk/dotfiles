@@ -1,10 +1,9 @@
-set exrc
-set secure
-
 set hls is
 
 inoremap jk <ESC>
 colorscheme torte
+
+filetype plugin indent on
 
 set t_Co=256
 set encoding=utf-8
