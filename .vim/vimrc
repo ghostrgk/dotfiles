@@ -1,4 +1,4 @@
-set hls is
+set is
 
 inoremap jk <ESC>
 colorscheme torte
@@ -10,11 +10,17 @@ set encoding=utf-8
 syntax on
 set laststatus=2
 set showcmd
+set rnu nu
 
-let mapleader = "'"
+" let mapleader = "'"
 
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_winsize = 20
 let g:netrw_altv = 1
 
+nnoremap <leader>f :YcmCompleter GoTo <CR>
+nnoremap <leader>r :YcmCompleter GoToReferences <CR>
+nnoremap <leader>v :YcmCompleter GoToCallers <CR>
+nnoremap <leader>b :Black <CR>
+set completeopt-=preview
